@@ -1,0 +1,23 @@
+@import './my-variables';
+@import './responsive-settings';
+body {
+    background: $bg-color;
+    color: $text-color;
+}
+.container {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-left:auto;
+    margin-right: auto;
+
+    &__img-my {
+        width: 50vw;
+    }
+}
+@include media-sm;
+@include media-md;
+@include media-md2;
+@include media-lg;
+

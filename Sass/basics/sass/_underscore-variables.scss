@@ -1,0 +1,15 @@
+$primary-color: #272727;
+$accent-color: #ff652f;
+$text-color: #fff;
+$font-weights: ( // Realizando mapeo con parametros de clave y valor 
+    "regular": 400 ,
+    "medium": 500 ,
+    "bold": 700
+);
+$min-mobile: 320px;
+$max-mobile: 599px;
+$min-tablets: 600px;
+$max-tablets: 799px;
+$min-computer: 800px;
+$medium-computer: 1023px;
+$max-computer: 1024px;

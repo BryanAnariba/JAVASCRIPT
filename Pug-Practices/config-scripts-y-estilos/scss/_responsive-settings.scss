@@ -1,0 +1,59 @@
+@mixin media-sm {
+    @media (min-width: 320px) and (max-width: 599px)  {
+        .container {
+            display: grid;
+            width: 90%;
+            grid-template-columns: 1fr;
+            margin-left:auto;
+            margin-right: auto;
+        }
+
+        &__img-my {
+            width: 80vw;
+        }
+    }
+}
+
+@mixin media-md {
+    @media (min-width: 600px) and (max-width: 767px)  {
+        .container {
+            display: grid;
+            width: 90%;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            margin-left:auto;
+            margin-right: auto;
+        }
+
+        &__img-my {
+            width: 50vw;
+        }
+    }
+}
+
+
+@mixin media-md2 {
+    @media (min-width: 768px) and (max-width: 1023px)  {
+        .container {
+            display: grid;
+            width: 90%;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto auto;
+            margin-left:auto;
+            margin-right: auto;
+        }
+
+        &__img-my {
+            width: 20vw;
+        }
+    }
+}
+
+
+@mixin media-lg {
+    @media (min-width: 1024px) {
+        &__img-my {
+            width: 10vw;
+        }
+    }
+}
